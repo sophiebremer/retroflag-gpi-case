@@ -1,0 +1,4 @@
+# Place in /etc/rc.local
+# ...
+sudo python3 /opt/RetroFlag/SafeShutdown.py &
+exit 0
