@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # Place as /opt/RetroFlag/SafeShutdown.py
 from gpiozero import Button, LED
-import os 
+import os
 from signal import pause
 
-powerPin = 26 
-powerenPin = 27 
+powerPin = 26
+powerenPin = 27
 hold = 1
 power = LED(powerenPin)
 power.on()
