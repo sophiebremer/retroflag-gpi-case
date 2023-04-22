@@ -15,5 +15,9 @@ System files for Raspberry Pi OS to relay the GPIO connections.
   scp boot/overlays/pwm-audio-pi-zero.dtbo pi@raspberrypi.local:/home/pi/pwm-audio-pi-zero.dtbo
   ```
 
-- While removing unecessary packages from the default installation, be aware that the `avahi-daemon` package is responsible for access to the Raspberry PI via its hostname `raspberrypi.local`.
-  Otherwise you have to use an IP address for SCP and SSH, f.eks. `pi@192.168.0.3` instead of `pi@raspberrypi.local`.
+- While removing unecessary packages from the default installation, be aware that the `avahi-daemon` package is responsible for network access to the Raspberry PI via the hostname `raspberrypi.local`.
+  If removed you have to use an IP address for SCP and SSH, f.eks. `pi@192.168.0.3` instead of `pi@raspberrypi.local`.
+
+- The keys of the case are available as a joystick device.
+  If you need them as keystrokes from a keyboard, you can map the keys with the help of the `joy2key` package.
+  Configuration details can be found in the [joy2key man page](https://manpages.debian.org/testing/joy2key/joy2key.1.en.html)
