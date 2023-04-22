@@ -15,5 +15,5 @@ System files for Raspberry Pi OS to relay the GPIO connections.
   scp boot/overlays/pwm-audio-pi-zero.dtbo pi@raspberrypi.local:/home/pi/pwm-audio-pi-zero.dtbo
   ```
 
-- While removing unecessary files from the default installation, be aware that the `avahi-daemon` package is responsible to access the Raspberry PI via its hostname `raspberrypi.local`.
+- While removing unecessary packages from the default installation, be aware that the `avahi-daemon` package is responsible for access to the Raspberry PI via its hostname `raspberrypi.local`.
   Otherwise you have to use an IP address for SCP and SSH, f.eks. `pi@192.168.0.3` instead of `pi@raspberrypi.local`.
