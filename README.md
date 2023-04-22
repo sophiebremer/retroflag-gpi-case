@@ -20,4 +20,4 @@ System files for Raspberry Pi OS to relay the GPIO connections.
 
 - The keys of the case are available as a joystick device.
   If you need them as keystrokes from a keyboard, you can map the keys with the help of the `joy2key` package.
-  Configuration details can be found in the [joy2key man page](https://manpages.debian.org/testing/joy2key/joy2key.1.en.html)
+  Configuration details can be found in the [joy2key manpage](https://manpages.debian.org/testing/joy2key/joy2key.1.en.html) or in the [joy2key webpage](http://interreality.org/~tetron/technology/joy2key/joy2keyconfig.html).
